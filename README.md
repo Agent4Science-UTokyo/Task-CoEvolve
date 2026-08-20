@@ -43,7 +43,7 @@ during optimization by 80%.
 
 ## Code
 
-**Code will be available soon.** Please watch ⭐ this repository to get notified when it is released.
+**Code will be available soon.** Please watch 👀 this repository to get notified when it is released.
 
 ## Citation
 
