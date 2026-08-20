@@ -5,6 +5,10 @@ The University of Tokyo
 
 ---
 
+## News
+
+- **[2026/08/21]** 🎉 This repository is released.
+
 <p align="center">
   <img src="figs/overview.png" width="95%" alt="Overview of Task-CoEvolve">
 </p>
