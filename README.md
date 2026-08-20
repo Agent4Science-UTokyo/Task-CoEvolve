@@ -49,3 +49,27 @@ during optimization by 80%.
   year    = {2026}
 }
 ```
+
+## Related Work from Our Group
+
+**Jr. AI Scientist and Its Risk Report** — This paper comprehensively discusses the capability limitations of current state-of-the-art AI Scientists and their associated risks, which helps clarify the direction of our future work.
+
+```bibtex
+@article{miyai2026jr,
+  title   = {Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper},
+  author  = {Miyai, Atsuyuki and Toyooka, Mashiro and Otonari, Takashi and Zhao, Zaiying and Aizawa, Kiyoharu},
+  journal = {TMLR},
+  year    = {2026}
+}
+```
+
+**Paper Reconstruction Evaluation (PaperRecon)** — This paper introduces the first systematic evaluation framework for quantifying the quality and risks of papers written by modern coding agents. In PaperRecon, an overview is created from an existing paper, after which an agent generates a full paper based on the overview and minimal additional resources, and the result is subsequently compared against the original paper.
+
+```bibtex
+@article{miyai2026paper,
+  title   = {Paper Reconstruction Evaluation: Evaluating Presentation and Hallucination in AI-written Papers},
+  author  = {Miyai, Atsuyuki and Toyooka, Mashiro and Zhao, Zaiying and Watanabe, Kenta and Yamasaki, Toshihiko and Aizawa, Kiyoharu},
+  journal = {arXiv preprint arXiv:2604.01128},
+  year    = {2026}
+}
+```
