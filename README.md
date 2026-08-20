@@ -5,10 +5,6 @@ The University of Tokyo
 
 ---
 
-## News
-
-- **[2026/08/21]** 🎉 This repository is released.
-
 <p align="center">
   <img src="figs/overview.png" width="95%" alt="Overview of Task-CoEvolve">
 </p>
@@ -18,6 +14,10 @@ The University of Tokyo
 > **Same performance as full-set harness optimization, with 80% fewer evaluations.**
 >
 > Task-CoEvolve co-evolves the validation task set with the harness: it focuses evaluation on tasks where candidate harnesses disagree, and corrects the resulting estimates so scores stay comparable across iterations. On online text classification and Terminal-Bench 2.1, it **matches the final performance of full-set search while cutting the evaluation budget during optimization by 80%**, and consistently outperforms fixed-subset baselines at the same budget.
+
+## News
+
+- **[2026/08/21]** 🎉 This repository is released.
 
 ## Abstract
 
