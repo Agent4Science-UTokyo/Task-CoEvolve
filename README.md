@@ -1,7 +1,8 @@
 # Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection
 
-[Atsuyuki Miyai](https://atsumiyai.github.io/), [Kiyoharu Aizawa](https://sites.google.com/view/aizawa-kiyoharu), [Toshihiko Yamasaki](https://scholar.google.com/citations?user=rE9iY5MAAAAJ&hl=ja)
-The University of Tokyo
+[Atsuyuki Miyai](https://atsumiyai.github.io/), [Kiyoharu Aizawa](https://sites.google.com/view/aizawa-kiyoharu)\*, [Toshihiko Yamasaki](https://scholar.google.com/citations?user=rE9iY5MAAAAJ&hl=ja)\*  
+The University of Tokyo  
+\*Equal supervision
 
 ---
 
