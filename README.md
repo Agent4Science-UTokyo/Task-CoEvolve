@@ -56,7 +56,7 @@ during optimization by 80%.
 @article{miyai2026taskcoevolve,
   title   = {Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection},
   author  = {Miyai, Atsuyuki and Aizawa, Kiyoharu and Yamasaki, Toshihiko},
-  journal = {arXiv preprint},
+  journal = {arXiv preprint arxiv:2608.20169},
   year    = {2026}
 }
 ```
