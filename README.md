@@ -4,6 +4,8 @@
 The University of Tokyo  
 \*Equal supervision
 
+📄 **Paper:** [alphaXiv 2608.20169](https://www.alphaxiv.org/ja/abs/2608.20169) &nbsp;|&nbsp; 🎬 **Video:** [YouTube](https://www.youtube.com/watch?v=MvI17TNFW9c&t=61s)
+
 ---
 
 <p align="center">
@@ -15,6 +17,14 @@ The University of Tokyo
 > **Same performance as full-set harness optimization, with 80% fewer evaluations.**
 >
 > Task-CoEvolve co-evolves the validation task set with the harness: it focuses evaluation on tasks where candidate harnesses disagree, and corrects the resulting estimates so scores stay comparable across iterations. On online text classification and Terminal-Bench 2.1, it **matches the final performance of full-set search while cutting the evaluation budget during optimization by 80%**, and consistently outperforms subset-based baselines at the same budget.
+
+## Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=MvI17TNFW9c&t=61s">
+    <img src="figs/youtube.png" width="95%" alt="Task-CoEvolve video walkthrough on YouTube">
+  </a>
+</p>
 
 ## News
 
