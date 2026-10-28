@@ -1,0 +1,17 @@
+[project]
+name = "terminal-bench-2"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "harbor[modal]==0.18.0",
+  "litellm==1.84.10",
+  "tenacity==9.1.4",
+  "python-dotenv==1.2.2",
+  "terminal-bench==0.2.18",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+terminal-bench = { git = "https://github.com/harbor-framework/terminal-bench.git", rev = "1a6ffa9674b571da0ed040c470cb40c4d85f9b9b" }

@@ -1,0 +1,49 @@
+# Dataset split sizes — full datasets
+dataset:
+  num_train: 200
+  num_val: 50
+  num_test: 100
+  overrides:
+    # MCE tasks: use full official splits
+    USPTO:                     {num_train: 50, num_val: 30, num_test: 100}
+    Symptom2Disease:           {num_train: 200, num_val: 50, num_test: 212}
+    LawBench:                  {num_train: 200, num_val: 50, num_test: 100}
+
+# Inner loop settings
+inner_loop:
+  mode: offline      # "online" or "offline"
+  num_epochs: 1      # For offline mode: 1 epoch for local server speed (was 5)
+  temperature: 0.0   # LLM temperature (null = model default)
+  eval_interval: 0   # 0 = no intermediate evals
+  batch_size: 1
+  seed: 42
+
+# Models to test
+models:
+  - model: openrouter/openai/gpt-oss-120b
+  # - model: openrouter/openai/gpt-5.4-nano
+  # - model: openrouter/openai/gpt-5.4-mini
+  # - model: openrouter/google/gemini-3-flash-preview
+  # - model: openrouter/google/gemini-3.1-flash-lite
+  # - model: openrouter/openai/gpt-oss-20b
+  # To use a custom OpenAI-compatible endpoint instead, switch to e.g.:
+  # - model: gpt-oss-120b
+  #   api_base: https://your-api-host/v1
+
+# Benchmark sweep settings
+benchmark:
+  seeds: [42]              # multi-seed: [42, 123, 456]
+  concurrency: 16
+
+# Datasets to test
+datasets:
+  - USPTO
+  - Symptom2Disease
+  - LawBench
+
+# Memory systems to test
+memory_systems:
+  baselines:
+    - no_memory
+    - fewshot_all
+  proposed: []  # meta_harness.py writes candidate files into agents/ at runtime

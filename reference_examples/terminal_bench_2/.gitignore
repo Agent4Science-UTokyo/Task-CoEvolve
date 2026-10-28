@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+jobs/
+logs/claude_sessions/
+logs/pending_eval.json
+logs/frontier_val.json
+.old/
+
+# Pinned Claude Code CLI installed by scripts/install_claude_cli.sh
+.claude-cli/
