@@ -26,6 +26,9 @@ The University of Tokyo
   </a>
 </p>
 
+## News
+
+- **[2026/10/28]** 🎉 The code is released.
 
 ## Abstract
 
