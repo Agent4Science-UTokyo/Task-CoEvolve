@@ -120,8 +120,12 @@ The naive and full-search arms are `run_naive_20pct.sh` and
 ## Acknowledgement
 
 This code builds on [Meta-Harness](https://github.com/stanford-iris-lab/meta-harness)
-(MIT License). Its license is reproduced in
-[`LICENSE-meta-harness`](LICENSE-meta-harness).
+(MIT License).
+
+## License
+
+This repository is released under the [MIT License](LICENSE). Portions derived
+from Meta-Harness keep their original copyright notice, included in the same file.
 
 ## Related Work from Our Group
 
